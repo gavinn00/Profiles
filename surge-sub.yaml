@@ -1,0 +1,274 @@
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+# DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29, 223.5.5.5
+external-controller-access = 00008189@0.0.0.0:6170
+http-api = 00008189@0.0.0.0:6171
+ipv6 = true
+ipv6-vif = auto
+http-listen = 0.0.0.0
+socks5-listen = 0.0.0.0
+test-timeout = 5
+http-api-web-dashboard = true
+
+[Proxy]
+香港 01丨1x HK = ss, zhuanlan.zhihu.win, 12022, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港 02丨1x HK = ss, zhuanlan.zhihu.win, 12023, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港 03丨1x HK = ss, zhuanlan.zhihu.win, 12024, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港家宽 01丨1x HK = ss, zhuanlan.zhihu.win, 12729, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港家宽 02丨1x HK = ss, zhuanlan.zhihu.win, 13105, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港家宽 03丨1x HK = ss, zhuanlan.zhihu.win, 13115, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+香港游戏丨2x HK = ss, zhuanlan.zhihu.win, 12312, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+澳门家宽 02丨3x MO = ss, zhuanlan.zhihu.win, 13151, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾 01丨1x TW = ss, zhuanlan.zhihu.win, 13127, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾 02丨1x TW = ss, zhuanlan.zhihu.win, 13128, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾 03丨1x TW = ss, zhuanlan.zhihu.win, 13129, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾家宽 01丨1x TW = ss, zhuanlan.zhihu.win, 12304, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾家宽 02丨1x TW = ss, zhuanlan.zhihu.win, 12305, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+台湾家宽 03丨1x TW = ss, zhuanlan.zhihu.win, 12306, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡 01丨1x SG = ss, zhuanlan.zhihu.win, 12000, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡 02丨1x SG = ss, zhuanlan.zhihu.win, 12002, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡 03丨1x SG = ss, zhuanlan.zhihu.win, 12003, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡 04丨1x SG = ss, zhuanlan.zhihu.win, 12004, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡家宽 01丨3x SG = ss, zhuanlan.zhihu.win, 12726, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡家宽 02丨3x SG = ss, zhuanlan.zhihu.win, 13116, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新加坡家宽 03丨3x SG = ss, zhuanlan.zhihu.win, 13132, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马来西亚家宽 01丨1x MY = ss, zhuanlan.zhihu.win, 12727, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马来西亚家宽 02丨1x MY = ss, zhuanlan.zhihu.win, 13182, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马来西亚家宽 03丨1x MY = ss, zhuanlan.zhihu.win, 13183, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马来西亚家宽 04丨1x MY = ss, zhuanlan.zhihu.win, 12321, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马尔代夫丨3x MV = ss, demo.uwp.gitv.site, 13135, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+柬埔寨丨3x KH = ss, zhuanlan.zhihu.win, 12701, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+泰国丨2x TH = ss, zhuanlan.zhihu.win, 12313, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+缅甸丨10x MM = ss, zhuanlan.zhihu.win, 13137, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+老挝丨5x LA = ss, zhuanlan.zhihu.win, 13138, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+越南丨1x VN = ss, zhuanlan.zhihu.win, 12316, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+越南家宽丨3x VN = ss, zhuanlan.zhihu.win, 12700, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 01丨1x JP = ss, snrent.pptv.site, 12011, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 02丨1x JP = ss, snrent.pptv.site, 12010, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 03丨1x JP = ss, snrent.pptv.site, 12012, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 04丨1x JP = ss, snrent.pptv.site, 12013, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 05丨1x JP = ss, snrent.pptv.site, 12014, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 06丨3x JP = ss, snrent.pptv.site, 13023, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本 07丨3x JP = ss, snrent.pptv.site, 13020, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本游戏丨2x JP = ss, snrent.pptv.site, 13024, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本家宽 01丨3x JP = ss, snrent.pptv.site, 13101, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+日本家宽 02丨3x JP = ss, snrent.pptv.site, 13221, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+韩国 01丨1x KR = ss, snrent.pptv.site, 12317, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+韩国 02丨1x KR = ss, snrent.pptv.site, 12800, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+韩国家宽 01丨3x KR = ss, snrent.pptv.site, 50015, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+韩国家宽 02丨3x KR = ss, snrent.pptv.site, 50016, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+不丹丨3x BT = ss, zhuanlan.zhihu.win, 20027, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+文莱丨3x BN = ss, zhuanlan.zhihu.win, 20028, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+朝鲜丨3x KP = ss, snrent.pptv.site, 13222, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+关岛丨3x GU = ss, snrent.pptv.site, 13229, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+斐济丨3x FJ = ss, snrent.pptv.site, 13224, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+菲律宾-克拉克丨1x PH = ss, zhuanlan.zhihu.win, 12406, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+菲律宾-马尼拉丨1x PH = ss, zhuanlan.zhihu.win, 12020, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+菲律宾-帕西格丨1x PH = ss, zhuanlan.zhihu.win, 13124, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+印尼-棉兰丨1x ID = ss, zhuanlan.zhihu.win, 12300, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+印尼-雅加达丨1x ID = ss, zhuanlan.zhihu.win, 12301, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+印度 02丨1x IN = ss, zhuanlan.zhihu.win, 13106, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+蒙古丨1x MN = ss, zhuanlan.zhihu.win, 12328, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+约旦丨2x JO = ss, demo.uwp.gitv.site, 12708, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+伊朗丨5x IR = ss, demo.uwp.gitv.site, 12707, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴林丨10x BH = ss, demo.uwp.gitv.site, 13108, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿曼丨3x OM = ss, zhuanlan.zhihu.win, 13135, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+以色列-海法丨1x IL = ss, demo.uwp.gitv.site, 12600, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+以色列-罗什艾因丨1x IL = ss, demo.uwp.gitv.site, 12732, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+以色列-特拉维夫丨1x IL = ss, demo.uwp.gitv.site, 12733, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+以色列-佩塔提克瓦丨1x IL = ss, demo.uwp.gitv.site, 12735, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+土耳其 01丨1x TR = ss, demo.uwp.gitv.site, 12603, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+土耳其 02丨1x TR = ss, demo.uwp.gitv.site, 12655, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+尼泊尔丨1x NP = ss, zhuanlan.zhihu.win, 12720, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+孟加拉丨2x BD = ss, zhuanlan.zhihu.win, 12724, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+黎巴嫩丨5x LB = ss, demo.uwp.gitv.site, 13123, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+伊拉克丨5x IQ = ss, demo.uwp.gitv.site, 13124, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+叙利亚丨5x SY = ss, demo.uwp.gitv.site, 13126, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+卡塔尔丨10x QA = ss, zhuanlan.zhihu.win, 13181, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿联酋 01丨2x AE = ss, zhuanlan.zhihu.win, 12400, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿联酋 02丨2x AE = ss, zhuanlan.zhihu.win, 13110, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿联酋 03丨2x AE = ss, zhuanlan.zhihu.win, 13100, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿塞拜疆丨2x AZ = ss, demo.uwp.gitv.site, 12606, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+亚美尼亚丨2x AM = ss, demo.uwp.gitv.site, 12737, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+格鲁吉亚丨1x GE = ss, demo.uwp.gitv.site, 12644, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴基斯坦丨5x PK = ss, zhuanlan.zhihu.win, 12605, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+斯里兰卡丨3x LK = ss, zhuanlan.zhihu.win, 20029, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+沙特阿拉伯丨3x SA = ss, zhuanlan.zhihu.win, 13032, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+哈萨克斯坦丨1x KZ = ss, demo.uwp.gitv.site, 12602, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+吉尔吉斯斯坦丨1x KG = ss, demo.uwp.gitv.site, 13120, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+乌兹别克斯坦丨1x UZ = ss, zhuanlan.zhihu.win, 20025, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+澳大利亚-悉尼丨2x AU = ss, zhuanlan.zhihu.win, 12324, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+澳大利亚-珀斯丨2x AU = ss, zhuanlan.zhihu.win, 12402, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+澳大利亚-墨尔本丨2x AU = ss, zhuanlan.zhihu.win, 12401, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+澳大利亚-布里斯班丨2x AU = ss, zhuanlan.zhihu.win, 12325, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新西兰丨2x NZ = ss, zhuanlan.zhihu.win, 12326, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+新西兰家宽丨3x NZ = ss, zhuanlan.zhihu.win, 20023, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+法国 01丨1x FR = ss, demo.uwp.gitv.site, 12621, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+法国 02丨1x FR = ss, demo.uwp.gitv.site, 12740, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+法国-谷歌无线网络丨3x FR = ss, demo.uwp.gitv.site, 13137, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国 01丨1x GB = ss, demo.uwp.gitv.site, 12710, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国 02丨1x GB = ss, demo.uwp.gitv.site, 12267, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国 03丨1x GB = ss, demo.uwp.gitv.site, 12736, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国 04丨2x GB = ss, demo.uwp.gitv.site, 12470, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国 05丨1x GB = ss, demo.uwp.gitv.site, 12266, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+英国家宽丨3x GB = ss, demo.uwp.gitv.site, 12640, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马恩岛丨2x IM = ss, demo.uwp.gitv.site, 12623, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+德国 01丨1x DE = ss, demo.uwp.gitv.site, 12619, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+德国 02丨1x DE = ss, demo.uwp.gitv.site, 12620, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+德国-谷歌无线网络丨3x DE = ss, demo.uwp.gitv.site, 13134, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+丹麦丨1x DK = ss, demo.uwp.gitv.site, 12608, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+挪威丨1x NO = ss, demo.uwp.gitv.site, 12610, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+瑞典丨1x SE = ss, demo.uwp.gitv.site, 12611, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+芬兰丨2x FI = ss, demo.uwp.gitv.site, 12609, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+冰岛丨2x IS = ss, demo.uwp.gitv.site, 12607, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+冰岛-谷歌无线网络丨3x IS = ss, demo.uwp.gitv.site, 13132, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+瑞士丨2x CH = ss, demo.uwp.gitv.site, 12630, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+捷克丨1x CZ = ss, demo.uwp.gitv.site, 12613, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+希腊丨2x GR = ss, demo.uwp.gitv.site, 12615, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+荷兰丨1x NL = ss, demo.uwp.gitv.site, 12622, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+波兰丨1x PL = ss, demo.uwp.gitv.site, 12261, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+黑山丨3x ME = ss, demo.uwp.gitv.site, 13129, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+俄罗斯-莫斯科丨1x RU = ss, demo.uwp.gitv.site, 12034, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+俄罗斯-叶卡捷琳堡丨1x RU = ss, demo.uwp.gitv.site, 13122, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+乌克兰丨1x UA = ss, demo.uwp.gitv.site, 12614, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+匈牙利丨1x HU = ss, demo.uwp.gitv.site, 12631, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+卢森堡丨2x LU = ss, demo.uwp.gitv.site, 12629, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+奥地利丨2x AT = ss, demo.uwp.gitv.site, 12628, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+意大利丨1x IT = ss, demo.uwp.gitv.site, 12616, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+梵蒂冈丨3x VA = ss, demo.uwp.gitv.site, 13131, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+比利时丨1x BE = ss, demo.uwp.gitv.site, 12618, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+爱尔兰丨2x IE = ss, demo.uwp.gitv.site, 12617, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+立陶宛丨1x LT = ss, demo.uwp.gitv.site, 12652, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+西班牙丨1x ES = ss, demo.uwp.gitv.site, 12625, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+葡萄牙丨1x PT = ss, demo.uwp.gitv.site, 12624, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+安道尔丨3x AD = ss, demo.uwp.gitv.site, 12738, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+马耳他丨3x MT = ss, demo.uwp.gitv.site, 12743, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+摩纳哥丨3x MC = ss, demo.uwp.gitv.site, 13138, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+保加利亚丨1x BG = ss, demo.uwp.gitv.site, 12634, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+克罗地亚丨2x HR = ss, demo.uwp.gitv.site, 12646, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+北马其顿丨2x MK = ss, demo.uwp.gitv.site, 12645, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+塞尔维亚丨2x RS = ss, demo.uwp.gitv.site, 12647, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+塞浦路斯丨1x CY = ss, demo.uwp.gitv.site, 12654, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+拉脱维亚丨1x LV = ss, demo.uwp.gitv.site, 12649, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+摩尔多瓦丨2x MD = ss, demo.uwp.gitv.site, 12651, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+斯洛伐克丨1x SK = ss, demo.uwp.gitv.site, 12650, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+爱沙尼亚丨1x EE = ss, demo.uwp.gitv.site, 12635, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+白俄罗斯丨3x BY = ss, demo.uwp.gitv.site, 12633, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+罗马尼亚丨1x RO = ss, demo.uwp.gitv.site, 12641, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+直布罗陀丨3x GI = ss, demo.uwp.gitv.site, 13127, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+圣马力诺丨3x SM = ss, demo.uwp.gitv.site, 13130, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+斯洛文尼亚丨2x SI = ss, demo.uwp.gitv.site, 12653, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿尔巴尼亚丨1x AL = ss, demo.uwp.gitv.site, 12642, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+波黑共和国丨2x BA = ss, demo.uwp.gitv.site, 12643, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+列支敦士登丨3x LI = ss, demo.uwp.gitv.site, 13128, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+法属留尼汪丨2x RE = ss, zhuanlan.zhihu.win, 20026, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-费城丨1x US = ss, snrent.pptv.site, 13005, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-丹佛丨1x US = ss, snrent.pptv.site, 13110, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-洛杉矶丨1x US = ss, snrent.pptv.site, 13007, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-圣何塞丨1x US = ss, snrent.pptv.site, 13008, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-斯波坎丨1x US = ss, snrent.pptv.site, 13010, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-奥格登丨1x US = ss, snrent.pptv.site, 13107, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-凤凰城丨1x US = ss, snrent.pptv.site, 13109, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-西雅图丨1x US = ss, snrent.pptv.site, 13111, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-芝加哥丨1x US = ss, snrent.pptv.site, 13112, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-底特律丨1x US = ss, snrent.pptv.site, 12705, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-夏威夷丨3x US = ss, snrent.pptv.site, 13108, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-迈阿密丨1x US = ss, snrent.pptv.site, 13113, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-堪萨斯丨1x US = ss, snrent.pptv.site, 13118, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-密尔沃基丨1x US = ss, snrent.pptv.site, 13012, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-圣克拉拉丨1x US = ss, snrent.pptv.site, 12706, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-拉斯维加斯丨1x US = ss, snrent.pptv.site, 13212, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-洛杉矶家宽丨3x US = ss, snrent.pptv.site, 13114, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-西雅图家宽丨5x US = ss, snrent.pptv.site, 13227, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-芝加哥家宽丨5x US = ss, snrent.pptv.site, 13228, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-亚特兰大家宽丨5x US = ss, snrent.pptv.site, 13213, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+美国-谷歌无线网络丨3x US = ss, snrent.pptv.site, 13226, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+加拿大-温哥华丨2x CA = ss, snrent.pptv.site, 13001, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+加拿大-多伦多丨1x CA = ss, snrent.pptv.site, 13000, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+加拿大-蒙特利尔丨1x CA = ss, snrent.pptv.site, 13200, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+加拿大家宽丨3x CA = ss, snrent.pptv.site, 13117, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+墨西哥丨3x MX = ss, snrent.pptv.site, 13004, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴拿马丨3x PA = ss, snrent.pptv.site, 12704, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+格陵兰丨3x GL = ss, demo.uwp.gitv.site, 13133, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+哥斯达黎加丨1x CR = ss, snrent.pptv.site, 12719, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴西 01丨1x BR = ss, snrent.pptv.site, 13103, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴西 02丨1x BR = ss, snrent.pptv.site, 13116, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴西 03丨1x BR = ss, snrent.pptv.site, 13217, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+巴西 04丨1x BR = ss, snrent.pptv.site, 13013, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+智利丨2x CL = ss, snrent.pptv.site, 13104, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+秘鲁丨5x PE = ss, snrent.pptv.site, 13016, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+古巴丨3x CU = ss, snrent.pptv.site, 13223, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿根廷 01丨2x AR = ss, snrent.pptv.site, 13015, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+阿根廷 02丨5x AR = ss, snrent.pptv.site, 13211, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+乌拉圭丨2x UY = ss, snrent.pptv.site, 12715, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+荷属库拉索丨2x CW = ss, snrent.pptv.site, 13115, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+哥伦比亚丨1x CO = ss, snrent.pptv.site, 13050, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+厄瓜多尔丨5x EC = ss, snrent.pptv.site, 13106, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+委内瑞拉丨3x VE = ss, snrent.pptv.site, 12720, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+危地马拉丨1x GT = ss, snrent.pptv.site, 13218, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+波多黎各丨2x PR = ss, snrent.pptv.site, 13219, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+开曼群岛丨3x KY = ss, snrent.pptv.site, 13225, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+埃及丨3x EG = ss, demo.uwp.gitv.site, 12718, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+加纳丨3x GH = ss, demo.uwp.gitv.site, 13136, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+南非-开普敦丨1x ZA = ss, demo.uwp.gitv.site, 13104, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+南非-约翰内斯堡丨1x ZA = ss, demo.uwp.gitv.site, 12036, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+摩洛哥丨2x MA = ss, demo.uwp.gitv.site, 12731, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+突尼斯丨2x TN = ss, demo.uwp.gitv.site, 12703, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+肯尼亚丨1x KE = ss, demo.uwp.gitv.site, 12716, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+卢旺达丨2x RW = ss, zhuanlan.zhihu.win, 13133, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+佛得角丨3x CV = ss, demo.uwp.gitv.site, 13139, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+尼日利亚丨2x NG = ss, demo.uwp.gitv.site, 12648, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+毛里求斯丨2x MU = ss, demo.uwp.gitv.site, 13118, encrypt-method=aes-128-gcm, password=haMLMXirByn6rGVh, obfs=http, obfs-host=1dc114656e23.microsoft.com, udp-relay=true
+
+[Proxy Group]
+🚀 Proxy = select, ♻️ Auto, 🚀 Manual, 🇨🇳 HK, 🇯🇵 JP, 🇺🇸 US, 🇸🇬 SG, 🇨🇳 TW, DIRECT
+🚀 Manual = select, 香港 01丨1x HK, 香港 02丨1x HK, 香港 03丨1x HK, 香港家宽 01丨1x HK, 香港家宽 02丨1x HK, 香港家宽 03丨1x HK, 香港游戏丨2x HK, 澳门家宽 02丨3x MO, 台湾 01丨1x TW, 台湾 02丨1x TW, 台湾 03丨1x TW, 台湾家宽 01丨1x TW, 台湾家宽 02丨1x TW, 台湾家宽 03丨1x TW, 新加坡 01丨1x SG, 新加坡 02丨1x SG, 新加坡 03丨1x SG, 新加坡 04丨1x SG, 新加坡家宽 01丨3x SG, 新加坡家宽 02丨3x SG, 新加坡家宽 03丨3x SG, 马来西亚家宽 01丨1x MY, 马来西亚家宽 02丨1x MY, 马来西亚家宽 03丨1x MY, 马来西亚家宽 04丨1x MY, 马尔代夫丨3x MV, 柬埔寨丨3x KH, 泰国丨2x TH, 缅甸丨10x MM, 老挝丨5x LA, 越南丨1x VN, 越南家宽丨3x VN, 日本 01丨1x JP, 日本 02丨1x JP, 日本 03丨1x JP, 日本 04丨1x JP, 日本 05丨1x JP, 日本 06丨3x JP, 日本 07丨3x JP, 日本游戏丨2x JP, 日本家宽 01丨3x JP, 日本家宽 02丨3x JP, 韩国 01丨1x KR, 韩国 02丨1x KR, 韩国家宽 01丨3x KR, 韩国家宽 02丨3x KR, 不丹丨3x BT, 文莱丨3x BN, 朝鲜丨3x KP, 关岛丨3x GU, 斐济丨3x FJ, 菲律宾-克拉克丨1x PH, 菲律宾-马尼拉丨1x PH, 菲律宾-帕西格丨1x PH, 印尼-棉兰丨1x ID, 印尼-雅加达丨1x ID, 印度 02丨1x IN, 蒙古丨1x MN, 约旦丨2x JO, 伊朗丨5x IR, 巴林丨10x BH, 阿曼丨3x OM, 以色列-海法丨1x IL, 以色列-罗什艾因丨1x IL, 以色列-特拉维夫丨1x IL, 以色列-佩塔提克瓦丨1x IL, 土耳其 01丨1x TR, 土耳其 02丨1x TR, 尼泊尔丨1x NP, 孟加拉丨2x BD, 黎巴嫩丨5x LB, 伊拉克丨5x IQ, 叙利亚丨5x SY, 卡塔尔丨10x QA, 阿联酋 01丨2x AE, 阿联酋 02丨2x AE, 阿联酋 03丨2x AE, 阿塞拜疆丨2x AZ, 亚美尼亚丨2x AM, 格鲁吉亚丨1x GE, 巴基斯坦丨5x PK, 斯里兰卡丨3x LK, 沙特阿拉伯丨3x SA, 哈萨克斯坦丨1x KZ, 吉尔吉斯斯坦丨1x KG, 乌兹别克斯坦丨1x UZ, 澳大利亚-悉尼丨2x AU, 澳大利亚-珀斯丨2x AU, 澳大利亚-墨尔本丨2x AU, 澳大利亚-布里斯班丨2x AU, 新西兰丨2x NZ, 新西兰家宽丨3x NZ, 法国 01丨1x FR, 法国 02丨1x FR, 法国-谷歌无线网络丨3x FR, 英国 01丨1x GB, 英国 02丨1x GB, 英国 03丨1x GB, 英国 04丨2x GB, 英国 05丨1x GB, 英国家宽丨3x GB, 马恩岛丨2x IM, 德国 01丨1x DE, 德国 02丨1x DE, 德国-谷歌无线网络丨3x DE, 丹麦丨1x DK, 挪威丨1x NO, 瑞典丨1x SE, 芬兰丨2x FI, 冰岛丨2x IS, 冰岛-谷歌无线网络丨3x IS, 瑞士丨2x CH, 捷克丨1x CZ, 希腊丨2x GR, 荷兰丨1x NL, 波兰丨1x PL, 黑山丨3x ME, 俄罗斯-莫斯科丨1x RU, 俄罗斯-叶卡捷琳堡丨1x RU, 乌克兰丨1x UA, 匈牙利丨1x HU, 卢森堡丨2x LU, 奥地利丨2x AT, 意大利丨1x IT, 梵蒂冈丨3x VA, 比利时丨1x BE, 爱尔兰丨2x IE, 立陶宛丨1x LT, 西班牙丨1x ES, 葡萄牙丨1x PT, 安道尔丨3x AD, 马耳他丨3x MT, 摩纳哥丨3x MC, 保加利亚丨1x BG, 克罗地亚丨2x HR, 北马其顿丨2x MK, 塞尔维亚丨2x RS, 塞浦路斯丨1x CY, 拉脱维亚丨1x LV, 摩尔多瓦丨2x MD, 斯洛伐克丨1x SK, 爱沙尼亚丨1x EE, 白俄罗斯丨3x BY, 罗马尼亚丨1x RO, 直布罗陀丨3x GI, 圣马力诺丨3x SM, 斯洛文尼亚丨2x SI, 阿尔巴尼亚丨1x AL, 波黑共和国丨2x BA, 列支敦士登丨3x LI, 法属留尼汪丨2x RE, 美国-费城丨1x US, 美国-丹佛丨1x US, 美国-洛杉矶丨1x US, 美国-圣何塞丨1x US, 美国-斯波坎丨1x US, 美国-奥格登丨1x US, 美国-凤凰城丨1x US, 美国-西雅图丨1x US, 美国-芝加哥丨1x US, 美国-底特律丨1x US, 美国-夏威夷丨3x US, 美国-迈阿密丨1x US, 美国-堪萨斯丨1x US, 美国-密尔沃基丨1x US, 美国-圣克拉拉丨1x US, 美国-拉斯维加斯丨1x US, 美国-洛杉矶家宽丨3x US, 美国-西雅图家宽丨5x US, 美国-芝加哥家宽丨5x US, 美国-亚特兰大家宽丨5x US, 美国-谷歌无线网络丨3x US, 加拿大-温哥华丨2x CA, 加拿大-多伦多丨1x CA, 加拿大-蒙特利尔丨1x CA, 加拿大家宽丨3x CA, 墨西哥丨3x MX, 巴拿马丨3x PA, 格陵兰丨3x GL, 哥斯达黎加丨1x CR, 巴西 01丨1x BR, 巴西 02丨1x BR, 巴西 03丨1x BR, 巴西 04丨1x BR, 智利丨2x CL, 秘鲁丨5x PE, 古巴丨3x CU, 阿根廷 01丨2x AR, 阿根廷 02丨5x AR, 乌拉圭丨2x UY, 荷属库拉索丨2x CW, 哥伦比亚丨1x CO, 厄瓜多尔丨5x EC, 委内瑞拉丨3x VE, 危地马拉丨1x GT, 波多黎各丨2x PR, 开曼群岛丨3x KY, 埃及丨3x EG, 加纳丨3x GH, 南非-开普敦丨1x ZA, 南非-约翰内斯堡丨1x ZA, 摩洛哥丨2x MA, 突尼斯丨2x TN, 肯尼亚丨1x KE, 卢旺达丨2x RW, 佛得角丨3x CV, 尼日利亚丨2x NG, 毛里求斯丨2x MU
+📲 Telegram = select, 🚀 Proxy, ♻️ Auto, 🇸🇬 SG, 🇨🇳 HK, 🇨🇳 TW, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual, DIRECT
+📹 Netflix = select, 🚀 Proxy, ♻️ Auto, 🇸🇬 SG, 🇨🇳 HK, 🇨🇳 TW, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual, DIRECT
+📺 Youtube = select, 🚀 Proxy, ♻️ Auto, 🇨🇳 HK, 🇸🇬 SG, 🇨🇳 TW, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual, DIRECT
+🎵 Spotify = select, 🚀 Proxy, 🇺🇸 US, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🚀 Manual, DIRECT
+🍎 Apple = select, 🚀 Proxy, 🇺🇸 US, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🚀 Manual, DIRECT
+🎬 Emby = select, 🚀 Proxy, 🇺🇸 US, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🚀 Manual, DIRECT
+🌐 Google = select, 🚀 Proxy, 🇺🇸 US, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🚀 Manual, DIRECT
+🤖 ChatGPT = select, 🚀 Proxy, ♻️ Auto, 🇨🇳 HK, 🇸🇬 SG, 🇨🇳 TW, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual, DIRECT
+🌏 HMT Anime = select, DIRECT, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🚀 Manual
+🐈 Final = select, 🚀 Proxy, ♻️ Auto, DIRECT, 🇨🇳 HK, 🇨🇳 TW, 🇸🇬 SG, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual
+🇨🇳 Direct = select, DIRECT, 🚀 Proxy, ♻️ Auto, 🇨🇳 HK, 🇸🇬 SG, 🇨🇳 TW, 🇯🇵 JP, 🇺🇸 US, 🚀 Manual
+🛑 BanAD = select, REJECT, DIRECT
+🇨🇳 HK = select, 香港 01丨1x HK, 香港 02丨1x HK, 香港 03丨1x HK, 香港家宽 01丨1x HK, 香港家宽 02丨1x HK, 香港家宽 03丨1x HK, 香港游戏丨2x HK
+🇯🇵 JP = select, 日本 01丨1x JP, 日本 02丨1x JP, 日本 03丨1x JP, 日本 04丨1x JP, 日本 05丨1x JP, 日本 06丨3x JP, 日本 07丨3x JP, 日本游戏丨2x JP, 日本家宽 01丨3x JP, 日本家宽 02丨3x JP, 尼日利亚丨2x NG
+🇺🇸 US = select, 亚美尼亚丨2x AM, 美国-费城丨1x US, 美国-丹佛丨1x US, 美国-洛杉矶丨1x US, 美国-圣何塞丨1x US, 美国-斯波坎丨1x US, 美国-奥格登丨1x US, 美国-凤凰城丨1x US, 美国-西雅图丨1x US, 美国-芝加哥丨1x US, 美国-底特律丨1x US, 美国-夏威夷丨3x US, 美国-迈阿密丨1x US, 美国-堪萨斯丨1x US, 美国-密尔沃基丨1x US, 美国-圣克拉拉丨1x US, 美国-拉斯维加斯丨1x US, 美国-洛杉矶家宽丨3x US, 美国-西雅图家宽丨5x US, 美国-芝加哥家宽丨5x US, 美国-亚特兰大家宽丨5x US, 美国-谷歌无线网络丨3x US
+🇸🇬 SG = select, 新加坡 01丨1x SG, 新加坡 02丨1x SG, 新加坡 03丨1x SG, 新加坡 04丨1x SG, 新加坡家宽 01丨3x SG, 新加坡家宽 02丨3x SG, 新加坡家宽 03丨3x SG, 新西兰丨2x NZ, 新西兰家宽丨3x NZ
+🇨🇳 TW = select, 台湾 01丨1x TW, 台湾 02丨1x TW, 台湾 03丨1x TW, 台湾家宽 01丨1x TW, 台湾家宽 02丨1x TW, 台湾家宽 03丨1x TW
+♻️ Auto = url-test, 香港 01丨1x HK, 香港 02丨1x HK, 香港 03丨1x HK, 香港家宽 01丨1x HK, 香港家宽 02丨1x HK, 香港家宽 03丨1x HK, 香港游戏丨2x HK, 澳门家宽 02丨3x MO, 台湾 01丨1x TW, 台湾 02丨1x TW, 台湾 03丨1x TW, 台湾家宽 01丨1x TW, 台湾家宽 02丨1x TW, 台湾家宽 03丨1x TW, 新加坡 01丨1x SG, 新加坡 02丨1x SG, 新加坡 03丨1x SG, 新加坡 04丨1x SG, 新加坡家宽 01丨3x SG, 新加坡家宽 02丨3x SG, 新加坡家宽 03丨3x SG, 马来西亚家宽 01丨1x MY, 马来西亚家宽 02丨1x MY, 马来西亚家宽 03丨1x MY, 马来西亚家宽 04丨1x MY, 马尔代夫丨3x MV, 柬埔寨丨3x KH, 泰国丨2x TH, 缅甸丨10x MM, 老挝丨5x LA, 越南丨1x VN, 越南家宽丨3x VN, 日本 01丨1x JP, 日本 02丨1x JP, 日本 03丨1x JP, 日本 04丨1x JP, 日本 05丨1x JP, 日本 06丨3x JP, 日本 07丨3x JP, 日本游戏丨2x JP, 日本家宽 01丨3x JP, 日本家宽 02丨3x JP, 韩国 01丨1x KR, 韩国 02丨1x KR, 韩国家宽 01丨3x KR, 韩国家宽 02丨3x KR, 不丹丨3x BT, 文莱丨3x BN, 朝鲜丨3x KP, 关岛丨3x GU, 斐济丨3x FJ, 菲律宾-克拉克丨1x PH, 菲律宾-马尼拉丨1x PH, 菲律宾-帕西格丨1x PH, 印尼-棉兰丨1x ID, 印尼-雅加达丨1x ID, 印度 02丨1x IN, 蒙古丨1x MN, 约旦丨2x JO, 伊朗丨5x IR, 巴林丨10x BH, 阿曼丨3x OM, 以色列-海法丨1x IL, 以色列-罗什艾因丨1x IL, 以色列-特拉维夫丨1x IL, 以色列-佩塔提克瓦丨1x IL, 土耳其 01丨1x TR, 土耳其 02丨1x TR, 尼泊尔丨1x NP, 孟加拉丨2x BD, 黎巴嫩丨5x LB, 伊拉克丨5x IQ, 叙利亚丨5x SY, 卡塔尔丨10x QA, 阿联酋 01丨2x AE, 阿联酋 02丨2x AE, 阿联酋 03丨2x AE, 阿塞拜疆丨2x AZ, 亚美尼亚丨2x AM, 格鲁吉亚丨1x GE, 巴基斯坦丨5x PK, 斯里兰卡丨3x LK, 沙特阿拉伯丨3x SA, 哈萨克斯坦丨1x KZ, 吉尔吉斯斯坦丨1x KG, 乌兹别克斯坦丨1x UZ, 澳大利亚-悉尼丨2x AU, 澳大利亚-珀斯丨2x AU, 澳大利亚-墨尔本丨2x AU, 澳大利亚-布里斯班丨2x AU, 新西兰丨2x NZ, 新西兰家宽丨3x NZ, 法国 01丨1x FR, 法国 02丨1x FR, 法国-谷歌无线网络丨3x FR, 英国 01丨1x GB, 英国 02丨1x GB, 英国 03丨1x GB, 英国 04丨2x GB, 英国 05丨1x GB, 英国家宽丨3x GB, 马恩岛丨2x IM, 德国 01丨1x DE, 德国 02丨1x DE, 德国-谷歌无线网络丨3x DE, 丹麦丨1x DK, 挪威丨1x NO, 瑞典丨1x SE, 芬兰丨2x FI, 冰岛丨2x IS, 冰岛-谷歌无线网络丨3x IS, 瑞士丨2x CH, 捷克丨1x CZ, 希腊丨2x GR, 荷兰丨1x NL, 波兰丨1x PL, 黑山丨3x ME, 俄罗斯-莫斯科丨1x RU, 俄罗斯-叶卡捷琳堡丨1x RU, 乌克兰丨1x UA, 匈牙利丨1x HU, 卢森堡丨2x LU, 奥地利丨2x AT, 意大利丨1x IT, 梵蒂冈丨3x VA, 比利时丨1x BE, 爱尔兰丨2x IE, 立陶宛丨1x LT, 西班牙丨1x ES, 葡萄牙丨1x PT, 安道尔丨3x AD, 马耳他丨3x MT, 摩纳哥丨3x MC, 保加利亚丨1x BG, 克罗地亚丨2x HR, 北马其顿丨2x MK, 塞尔维亚丨2x RS, 塞浦路斯丨1x CY, 拉脱维亚丨1x LV, 摩尔多瓦丨2x MD, 斯洛伐克丨1x SK, 爱沙尼亚丨1x EE, 白俄罗斯丨3x BY, 罗马尼亚丨1x RO, 直布罗陀丨3x GI, 圣马力诺丨3x SM, 斯洛文尼亚丨2x SI, 阿尔巴尼亚丨1x AL, 波黑共和国丨2x BA, 列支敦士登丨3x LI, 法属留尼汪丨2x RE, 美国-费城丨1x US, 美国-丹佛丨1x US, 美国-洛杉矶丨1x US, 美国-圣何塞丨1x US, 美国-斯波坎丨1x US, 美国-奥格登丨1x US, 美国-凤凰城丨1x US, 美国-西雅图丨1x US, 美国-芝加哥丨1x US, 美国-底特律丨1x US, 美国-夏威夷丨3x US, 美国-迈阿密丨1x US, 美国-堪萨斯丨1x US, 美国-密尔沃基丨1x US, 美国-圣克拉拉丨1x US, 美国-拉斯维加斯丨1x US, 美国-洛杉矶家宽丨3x US, 美国-西雅图家宽丨5x US, 美国-芝加哥家宽丨5x US, 美国-亚特兰大家宽丨5x US, 美国-谷歌无线网络丨3x US, 加拿大-温哥华丨2x CA, 加拿大-多伦多丨1x CA, 加拿大-蒙特利尔丨1x CA, 加拿大家宽丨3x CA, 墨西哥丨3x MX, 巴拿马丨3x PA, 格陵兰丨3x GL, 哥斯达黎加丨1x CR, 巴西 01丨1x BR, 巴西 02丨1x BR, 巴西 03丨1x BR, 巴西 04丨1x BR, 智利丨2x CL, 秘鲁丨5x PE, 古巴丨3x CU, 阿根廷 01丨2x AR, 阿根廷 02丨5x AR, 乌拉圭丨2x UY, 荷属库拉索丨2x CW, 哥伦比亚丨1x CO, 厄瓜多尔丨5x EC, 委内瑞拉丨3x VE, 危地马拉丨1x GT, 波多黎各丨2x PR, 开曼群岛丨3x KY, 埃及丨3x EG, 加纳丨3x GH, 南非-开普敦丨1x ZA, 南非-约翰内斯堡丨1x ZA, 摩洛哥丨2x MA, 突尼斯丨2x TN, 肯尼亚丨1x KE, 卢旺达丨2x RW, 佛得角丨3x CV, 尼日利亚丨2x NG, 毛里求斯丨2x MU, url=http://www.gstatic.com/generate_204, interval=300
+
+[Rule]
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 BanAD,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🛑 BanAD,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 Apple,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 Telegram,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/gavinn00/Profiles/ma%D1%95ter/Google.list,🌍 Google,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/lhl77/sub-ini/main/openai.list,🤖 ChatGPT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list,🎵 Spotify,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📺 Youtube,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,📹 Netflix,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list,🌏 HMT Anime,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Ruleset/IqiyiHMT.list,🌏 HMT Anime,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🇨🇳 Direct,update-interval=86400
+RULE-SET,https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/Download.list,🇨🇳 Direct,update-interval=86400
+GEOIP,CN,🇨🇳 Direct
+RULE-SET,https://raw.githubusercontent.com/lhl77/sub-ini/main/emby.list,🎬 Emby,update-interval=86400
+FINAL,🐈 Final
+
+[Script]
+iQIYI.js = script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=
+
